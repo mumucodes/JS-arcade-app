@@ -1,0 +1,36 @@
+.wrapper {
+    border: 5px solid black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 1800px;
+    height: 1000px;
+    transform: translate(-50%, -50%);
+    background: url('./BGarcarde.png');
+    background-repeat: no-repeat;
+    
+}
+#canvas1 {
+    position: absolute;
+    top: 193px;
+    left: 210px;
+    width: 300px;
+    height: 270px;
+    background: blue;
+}
+#canvas2 {
+    position: absolute;
+    top: 193px;
+    left: 750px;
+    width: 300px;
+    height: 270px;
+    background: red;
+}
+#canvas3 {
+    position: absolute;
+    top: 193px;
+    left: 1290px;
+    width: 300px;
+    height: 270px;
+    background: yellow;
+}
